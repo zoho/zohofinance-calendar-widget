@@ -1,0 +1,29 @@
+{
+  "locale": [
+    "en"
+  ],
+  "service": "FINANCE",
+  "whiteListedDomains": [],
+  "modules": {
+    "widgets": [
+      {
+        "location": "invoice.lineitem.add",
+        "name": "Charge For Events",
+        "url": "/app/index.html",
+        "logo": "/app/img/logo.png",
+        "widget_type":"modal"
+      }
+    ]
+  },
+  "config": [],
+  "usedConnections": [
+    {
+      "connectionLinkName": "googlecalender",
+      "connectionName": "googlecalender"
+    },
+    {
+      "connectionLinkName": "zohobooks",
+      "connectionName": "zohobooks"
+    }
+  ]
+}
